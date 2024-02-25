@@ -1,0 +1,18 @@
+USE [BD_BANCO1]
+GO
+
+/****** Object:  Table [dbo].[TB_CLIENTE_RENTABILIDAD]    Script Date: 25/02/2024 08:20:59 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[TB_CLIENTE_RENTABILIDAD](
+	[CODIGO] [varchar](12) NULL,
+	[SALDO_ACTIVO] [numeric](17, 2) NULL,
+	[SALDO_PASIVO] [numeric](17, 2) NULL,
+	[RENTABILIDAD] [numeric](17, 2) NULL
+) ON [PRIMARY]
+GO
+
